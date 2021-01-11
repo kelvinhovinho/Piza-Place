@@ -12,7 +12,7 @@ header{
 label{
     color: white;
 }
-/* .navbar{
+.navbar{
     background-color:transparent!important;
     height: 5vh;
 }
@@ -23,4 +23,4 @@ label{
 }
 .text{
     color: rgb(8, 8, 8) !important;
-} */
+}
