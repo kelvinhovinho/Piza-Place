@@ -1,13 +1,26 @@
 header{
     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./img/download.jpeg)!important;
     height: 100vh;
-    width: 100%;
+    width: 192vh;
     background-position: center;
     background-repeat: no-repeat;
 }
 .form-control{
     background-color:transparent;
+    color: white;
 }
-.form-horizontal{
-    align: center !important;
+label{
+    color: white;
 }
+/* .navbar{
+    background-color:transparent!important;
+    height: 5vh;
+}
+
+#logo{
+    padding: 30px;
+    height: 20vh;
+}
+.text{
+    color: rgb(8, 8, 8) !important;
+} */
