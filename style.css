@@ -1,12 +1,13 @@
 header{
-    background-image:url(./img/download.jpeg)!important;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./img/download.jpeg)!important;
     height: 100vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
-.overlay{
-    background-color: rgba(0,0,0,.5);
-    height: 100vh;
-    width: 100%;
+.form-control{
+    background-color:transparent;
+}
+.form-horizontal{
+    align: center !important;
 }
