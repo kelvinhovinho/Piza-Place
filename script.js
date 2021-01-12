@@ -22,7 +22,7 @@ Total.prototype.finalTotal = function () {
 
 var sizePrice = [1200, 900, 600]
 var deliverPrices = [0, 200];
-//user interface logic
+
 $(document).ready(function () {
     $('form#myform').submit(function (event) {
         event.preventDefault();
@@ -53,8 +53,8 @@ $(document).ready(function () {
         }
         else{
             if(pizzaPick===2){
-                prompt("Enter where you want your pizza to be delivered");
-                alert("Your order has been received and it will be delivered. Continue to see your order details");
+                var place=prompt("Enter where you want your pizza to be delivered");
+                alert(`Your order has been received and it will be delivered in  ${place}`);
                 alert("Your oder is: " + newOrder.fullOrder() + ".continue to see your total bill");
                 alert("your bill is: " + newTotal.finalTotal());
             }
