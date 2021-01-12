@@ -22,5 +22,17 @@ label{
     height: 20vh;
 }
 .text{
-    color: rgb(8, 8, 8) !important;
+    color: rgb(0, 0, 8) !important;
+}
+.pics{
+    /* background-color: turquoise; */
+    width: 20%;
+}
+.pics img{
+    border-radius: 80%;
+    width: 100%;
+    padding-top: 30px;
+}
+#pics2{
+    margin-left:20px;
 }
